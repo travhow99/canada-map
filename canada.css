@@ -1,0 +1,42 @@
+#canada-map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  max-height: 600px;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #12126f;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+path {cursor: progress;}
+
+path:hover, circle:hover {
+  stroke: #002868 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer!important;
+  transition: 0.6s;
+}
+
+.regulated {
+  fill: #3071ed !important;
+}
+.unregulated:hover {
+  fill: #636a79 !important;
+  stroke: #fff !important;
+}
+
+.unregulated {
+  fill: #c9ccd1 !important;
+}
