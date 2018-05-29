@@ -6,6 +6,26 @@
   padding-top: 50px;
   max-height: 600px;
 }
+
+.color-block {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 4px;
+  vertical-align: bottom;
+}
+
+.key-row span {display: inline-block;}
+
+.key-regulated {
+  background: #3071ed;
+}
+
+.key-cpi {
+  background: #c9ccd1;
+}
+
 #info-box {
   display: none;
   position: absolute;
@@ -29,14 +49,14 @@ path:hover, circle:hover {
   transition: 0.6s;
 }
 
-.regulated {
+.unregulated {
   fill: #3071ed !important;
 }
-.unregulated:hover {
+.regulated:hover {
   fill: #636a79 !important;
   stroke: #fff !important;
 }
 
-.unregulated {
+.regulated {
   fill: #c9ccd1 !important;
 }
